@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#173b32" />
+    <meta
+      name="description"
+      content="Jawab kuis minat singkat dan temukan rekomendasi ekstrakurikuler yang cocok untukmu."
+    />
+    <title>EkskulKu Mahaputra — Kuis Minat</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="quiz-page">
+    <header class="site-header">
+      <nav class="nav container" aria-label="Navigasi utama">
+        <a class="brand" href="index.html" aria-label="EkskulKu beranda"
+          ><span class="brand-mark school-logo"
+            ><img
+              src="https://www.e-ujian.com/SMKSMahaputraCerdasUtama/logo"
+              alt="Logo SMKS Mahaputra Cerdas Utama"
+              onerror="
+                this.hidden = true;
+                this.nextElementSibling.hidden = false;
+              "
+            /><span class="logo-fallback-text" hidden>MCU</span></span
+          ><span class="brand-name"
+            >Ekskul<span class="brand-accent">Ku</span></span
+          ></a
+        >
+        <a class="back-home" href="index.html">← Kembali ke beranda</a>
+      </nav>
+    </header>
+
+    <main class="quiz-main container">
+      <div class="quiz-heading">
+        <div class="eyebrow eyebrow-light">
+          <span class="eyebrow-dot"></span> KUIS MINAT EKSKUL
+        </div>
+        <h1>Yuk, cari tahu<br />ekskul yang <span>cocok buatmu.</span></h1>
+        <p>
+          Jawab pertanyaan berikut sesuai dirimu. Hasilnya akan mengarahkanmu ke
+          ekskul yang paling mendekati minatmu.
+        </p>
+      </div>
+
+      <section class="quiz-card" id="quizCard" aria-live="polite">
+        <div class="quiz-progress-row">
+          <span id="stepLabel">PERTANYAAN 1 DARI 5</span
+          ><span id="progressPercent">20%</span>
+        </div>
+        <div class="quiz-progress"><span id="progressBar"></span></div>
+        <form id="interestForm">
+          <fieldset class="question-step active" data-step="0">
+            <legend>Apa yang paling kamu suka lakukan?</legend>
+            <p class="question-hint">Pilih yang paling menggambarkan dirimu.</p>
+            <div class="answer-grid">
+              <label class="answer-option"
+                ><input
+                  type="radio"
+                  name="interest"
+                  value="Kepemimpinan"
+                  required
+                /><span
+                  ><strong>Memimpin dan menjaga kedisiplinan</strong
+                  ><small
+                    >Mengatur barisan, bertanggung jawab, dan bekerja
+                    sama.</small
+                  ></span
+                ><span class="answer-check">✓</span></label
+              >
+              <label class="answer-option"
+                ><input type="radio" name="interest" value="Olahraga" /><span
+                  ><strong>Bergerak dan berlatih fisik</strong
+                  ><small
+                    >Melatih ketangkasan, fokus, dan kebugaran.</small
+                  ></span
+                ><span class="answer-check">✓</span></label
+              >
+              <label class="answer-option"
+                ><input type="radio" name="interest" value="Keagamaan" /><span
+                  ><strong>Belajar dan bertumbuh secara rohani</strong
+                  ><small>Memperkuat iman dan kebersamaan.</small></span
+                ><span class="answer-check">✓</span></label
+              >
+              <label class="answer-option"
+                ><input type="radio" name="interest" value="Kemanusiaan" /><span
+                  ><strong>Membantu dan peduli pada orang lain</strong
+                  ><small>Belajar empati dan kepedulian sosial.</small></span
+                ><span class="answer-check">✓</span></label
+              >
+            </div>
+          </fieldset>
+          <fieldset class="question-step" data-step="1">
+            <legend>Kegiatan seperti apa yang kamu nikmati?</legend>
+            <p class="question-hint">
+              Bayangkan kegiatan yang bikin kamu betah.
+            </p>
+            <div class="answer-grid">
+              <label class="answer-option"
+                ><input
+                  type="radio"
+                  name="activity"
+                  value="Kepemimpinan"
+                  required
+                /><span
+                  ><strong>Latihan yang teratur dan terstruktur</strong
+                  ><small
+                    >Membentuk disiplin, ketelitian, dan tanggung jawab.</small
+                  ></span
+                ><span class="answer-check">✓</span></label
+              >
+              <label class="answer-option"
+                ><input type="radio" name="activity" value="Olahraga" /><span
+                  ><strong>Latihan fisik dan mengasah fokus</strong
+                  ><small
+                    >Mencoba tantangan dan meningkatkan kemampuan.</small
+                  ></span
+                ><span class="answer-check">✓</span></label
+              >
+              <label class="answer-option"
+                ><input type="radio" name="activity" value="Keagamaan" /><span
+                  ><strong>Kegiatan rohani bersama teman</strong
+                  ><small
+                    >Belajar nilai agama dan mempererat ukhuwah.</small
+                  ></span
+                ><span class="answer-check">✓</span></label
+              >
+              <label class="answer-option"
+                ><input type="radio" name="activity" value="Kemanusiaan" /><span
+                  ><strong>Kegiatan sosial dan pertolongan</strong
+                  ><small
+                    >Belajar peduli, sigap, dan bekerja dalam tim.</small
+                  ></span
+                ><span class="answer-check">✓</span></label
+              >
+            </div>
+          </fieldset>
+          <fieldset class="question-step" data-step="2">
+            <legend>Kemampuan apa yang ingin kamu kembangkan?</legend>
+            <p class="question-hint">Pilih kemampuan yang ingin kamu latih.</p>
+            <div class="answer-grid">
+              <label class="answer-option"
+                ><input
+                  type="radio"
+                  name="goal"
+                  value="Kepemimpinan"
+                  required
+                /><span
+                  ><strong>Disiplin dan kepemimpinan</strong
+                  ><small>Belajar bertanggung jawab dan kompak.</small></span
+                ><span class="answer-check">✓</span></label
+              >
+              <label class="answer-option"
+                ><input type="radio" name="goal" value="Olahraga" /><span
+                  ><strong>Fokus, ketangkasan, dan kebugaran</strong
+                  ><small
+                    >Melatih konsistensi dan pengendalian diri.</small
+                  ></span
+                ><span class="answer-check">✓</span></label
+              >
+              <label class="answer-option"
+                ><input type="radio" name="goal" value="Keagamaan" /><span
+                  ><strong>Pengetahuan dan nilai keagamaan</strong
+                  ><small>Memperkuat iman dan akhlak.</small></span
+                ><span class="answer-check">✓</span></label
+              >
+              <label class="answer-option"
+                ><input type="radio" name="goal" value="Kemanusiaan" /><span
+                  ><strong>Empati dan kepedulian</strong
+                  ><small
+                    >Belajar membantu dengan bertanggung jawab.</small
+                  ></span
+                ><span class="answer-check">✓</span></label
+              >
+            </div>
+          </fieldset>
+
+          <fieldset class="question-step" data-step="3">
+            <legend>Kamu lebih suka bekerja dengan cara apa?</legend>
+            <p class="question-hint">
+              Keduanya baik—pilih yang paling nyaman untukmu.
+            </p>
+            <div class="answer-grid answer-grid-two">
+              <label class="answer-option"
+                ><input
+                  type="radio"
+                  name="style"
+                  value="mandiri"
+                  required
+                /><span
+                  ><strong>Fokus mengembangkan kemampuan sendiri</strong
+                  ><small
+                    >Aku suka berlatih dengan tenang dan konsisten.</small
+                  ></span
+                ><span class="answer-check">✓</span></label
+              >
+              <label class="answer-option"
+                ><input type="radio" name="style" value="tim" /><span
+                  ><strong>Berkolaborasi dengan tim</strong
+                  ><small
+                    >Aku suka saling membantu dan mencapai tujuan
+                    bersama.</small
+                  ></span
+                ><span class="answer-check">✓</span></label
+              >
+            </div>
+          </fieldset>
+
+          <fieldset class="question-step" data-step="4">
+            <legend>Pengalaman seperti apa yang kamu cari?</legend>
+            <p class="question-hint">
+              Pilih hal yang paling ingin kamu rasakan.
+            </p>
+            <div class="answer-grid">
+              <label class="answer-option"
+                ><input
+                  type="radio"
+                  name="experience"
+                  value="disiplin"
+                  required
+                /><span
+                  ><strong>Menjadi lebih disiplin dan bertanggung jawab</strong
+                  ><small>Melihat perkembangan dari latihan rutin.</small></span
+                ><span class="answer-check">✓</span></label
+              >
+              <label class="answer-option"
+                ><input type="radio" name="experience" value="tantangan" /><span
+                  ><strong>Menguasai tantangan olahraga</strong
+                  ><small>Melatih fokus, teknik, dan kebugaran.</small></span
+                ><span class="answer-check">✓</span></label
+              >
+              <label class="answer-option"
+                ><input type="radio" name="experience" value="rohani" /><span
+                  ><strong>Memperkuat iman dan kebersamaan</strong
+                  ><small>Belajar nilai agama bersama teman.</small></span
+                ><span class="answer-check">✓</span></label
+              >
+              <label class="answer-option"
+                ><input type="radio" name="experience" value="peduli" /><span
+                  ><strong>Membantu orang dan memberi dampak baik</strong
+                  ><small>Mengembangkan empati dan kepedulian.</small></span
+                ><span class="answer-check">✓</span></label
+              >
+            </div>
+          </fieldset>
+
+          <div class="quiz-error" id="quizError" role="alert" hidden>
+            Pilih salah satu jawaban dulu, ya.
+          </div>
+          <div class="quiz-controls">
+            <button
+              class="button button-outline"
+              id="prevQuestion"
+              type="button"
+              disabled
+            >
+              ← Sebelumnya
+            </button>
+            <p class="quiz-auto-note" id="quizAutoNote">
+              Pilih jawaban untuk lanjut otomatis.
+            </p>
+          </div>
+        </form>
+      </section>
+
+      <section
+        class="recommendation-results"
+        id="recommendationResults"
+        hidden
+        aria-live="polite"
+      >
+        <div class="result-intro">
+          <div class="eyebrow eyebrow-light">HASIL KUIS MINATMU</div>
+          <h2>Ini yang mungkin <span>cocok buatmu.</span></h2>
+          <p>
+            Rekomendasi dibuat dari jawabanmu. Kamu tetap bebas memilih ekskul
+            mana pun yang paling kamu suka.
+          </p>
+        </div>
+        <div class="recommendation-list" id="recommendationList"></div>
+        <div class="result-actions">
+          <button class="button button-outline" id="retakeQuiz" type="button">
+            ↻ Ulangi kuis</button
+          ><a class="button button-green" href="index.html#jelajahi"
+            >Lihat semua ekskul →</a
+          >
+        </div>
+        <p class="result-disclaimer">
+          Rekomendasi ini bersifat panduan berdasarkan minat, bukan penilaian
+          kemampuan. Jadwal dan ketersediaan ekskul perlu dikonfirmasi ke
+          sekolah.
+        </p>
+      </section>
+    </main>
+
+    <nav class="mobile-bottom-nav" aria-label="Navigasi mobile">
+      <a class="mobile-nav-item" href="index.html"
+        ><svg viewBox="0 0 24 24" aria-hidden="true">
+          <path
+            d="m3 10 9-7 9 7v10a1 1 0 0 1-1 1h-5v-7H9v7H4a1 1 0 0 1-1-1Z"
+          /></svg
+        ><span>Beranda</span></a
+      >
+      <a class="mobile-nav-item" href="index.html#jelajahi"
+        ><svg viewBox="0 0 24 24" aria-hidden="true">
+          <rect x="3" y="3" width="7" height="7" rx="1.5" />
+          <rect x="14" y="3" width="7" height="7" rx="1.5" />
+          <rect x="3" y="14" width="7" height="7" rx="1.5" />
+          <rect x="14" y="14" width="7" height="7" rx="1.5" /></svg
+        ><span>Ekskul</span></a
+      >
+      <a class="mobile-nav-item active" href="rekomendasi.html"
+        ><svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M12 3v3M12 18v3M3 12h3M18 12h3" />
+          <circle cx="12" cy="12" r="6" />
+          <path d="m9.5 12 1.7 1.7 3.5-3.5" /></svg
+        ><span>Cocok</span></a
+      >
+    </nav>
+    <script src="recommendation.js"></script>
+  </body>
+</html>

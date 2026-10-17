@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#173b32" />
+    <meta
+      name="description"
+      content="Temukan informasi ekstrakurikuler sekolah: kegiatan, jadwal, lokasi, pembina, dan prestasi."
+    />
+    <title>EkskulKu Mahaputra — Temukan Bakatmu</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav container" aria-label="Navigasi utama">
+        <a class="brand" href="#beranda" aria-label="EkskulKu beranda">
+          <span class="brand-mark school-logo"
+            ><img
+              src="https://www.e-ujian.com/SMKSMahaputraCerdasUtama/logo"
+              alt="Logo SMKS Mahaputra Cerdas Utama"
+              onerror="
+                this.hidden = true;
+                this.nextElementSibling.hidden = false;
+              "
+            /><span class="logo-fallback-text" hidden>MCU</span></span
+          ><span class="brand-name"
+            >Ekskul<span class="brand-accent">Ku</span></span
+          >
+        </a>
+        <button
+          class="menu-toggle"
+          id="menuToggle"
+          aria-label="Buka navigasi"
+          aria-expanded="false"
+        >
+          <span></span><span></span>
+        </button>
+        <div class="nav-links" id="navLinks">
+          <a class="nav-link active" href="#beranda">Beranda</a>
+          <a class="nav-link" href="#jelajahi">Jelajahi Ekskul</a>
+          <a class="nav-link" href="rekomendasi.html">Cari yang Cocok</a>
+          <a class="button button-small button-yellow" href="rekomendasi.html"
+            >Temukan Ekskul <span aria-hidden="true">↗</span></a
+          >
+        </div>
+      </nav>
+    </header>
+
+    <nav class="mobile-bottom-nav" aria-label="Navigasi mobile">
+      <a class="mobile-nav-item active" href="#beranda" aria-label="Beranda">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="m3 10 9-7 9 7v10a1 1 0 0 1-1 1h-5v-7H9v7H4a1 1 0 0 1-1-1Z" />
+        </svg>
+        <span>Beranda</span>
+      </a>
+      <a class="mobile-nav-item" href="#jelajahi" aria-label="Jelajahi ekskul">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <rect x="3" y="3" width="7" height="7" rx="1.5" />
+          <rect x="14" y="3" width="7" height="7" rx="1.5" />
+          <rect x="3" y="14" width="7" height="7" rx="1.5" />
+          <rect x="14" y="14" width="7" height="7" rx="1.5" />
+        </svg>
+        <span>Ekskul</span>
+      </a>
+      <a
+        class="mobile-nav-item"
+        href="rekomendasi.html"
+        aria-label="Cari ekskul yang cocok"
+      >
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M12 3v3M12 18v3M3 12h3M18 12h3" />
+          <circle cx="12" cy="12" r="6" />
+          <path d="m9.5 12 1.7 1.7 3.5-3.5" />
+        </svg>
+        <span>Cocok</span>
+      </a>
+    </nav>
+
+    <main>
+      <section class="hero" id="beranda">
+        <div class="hero-orb orb-one"></div>
+        <div class="hero-orb orb-two"></div>
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <div class="eyebrow">
+              <span class="eyebrow-dot"></span> RUANG UNTUK BERTUMBUH
+            </div>
+            <h1>Temukan bakatmu.<br /><span>Kembangkan</span> potensimu.</h1>
+            <p class="hero-description">
+              Setiap minat punya tempat untuk berkembang. Temukan kegiatan,
+              teman baru, dan pengalaman seru lewat ekstrakurikuler SMKS
+              Mahaputra Cerdas Utama.
+            </p>
+            <div class="hero-actions">
+              <a href="#jelajahi" class="button button-yellow"
+                >Jelajahi Ekskul <span aria-hidden="true">↗</span></a
+              >
+              <a href="rekomendasi.html" class="text-link"
+                >Cari yang cocok <span aria-hidden="true">→</span></a
+              >
+            </div>
+            <div class="hero-note">
+              <span class="note-icon">✳</span
+              ><span
+                ><strong>Enam pilihan untuk berkembang.</strong><br />Mulai dari
+                hal yang kamu sukai.</span
+              >
+            </div>
+          </div>
+          <div class="hero-visual">
+            <div class="hero-photo-wrap hero-dummy-media">
+              <span>✦</span><strong>DUMMY VISUAL</strong
+              ><small>Foto kegiatan sekolah akan ditambahkan di sini</small>
+            </div>
+            <div class="floating-card floating-card-top">
+              <span class="floating-icon">✦</span
+              ><span
+                ><strong>Temukan minatmu</strong
+                ><small>Mulai petualangan baru</small></span
+              >
+            </div>
+            <div class="floating-card floating-card-bottom">
+              <span class="avatar-stack"><i>✎</i><i>♫</i><i>⚽</i></span
+              ><span
+                ><strong>Berani coba hal baru</strong
+                ><small>Belajar bareng teman</small></span
+              >
+            </div>
+            <span class="visual-spark spark-one">✳</span
+            ><span class="visual-spark spark-two">✦</span>
+          </div>
+        </div>
+        <div class="hero-bottom container">
+          <span>MINAT • KREATIVITAS • KOLABORASI</span
+          ><span class="scroll-cue"
+            >GULIR UNTUK MENJELAJAHI <span>↓</span></span
+          >
+        </div>
+      </section>
+
+      <section class="quiz-promo section" id="cari-cocok">
+        <div class="container quiz-promo-card">
+          <div class="quiz-promo-copy">
+            <div class="eyebrow eyebrow-light">
+              <span class="eyebrow-dot"></span> BINGUNG MEMILIH EKSKUL?
+            </div>
+            <h2>Temukan ekskul yang <span>cocok buat kamu.</span></h2>
+            <p>
+              Jawab beberapa pertanyaan singkat tentang hal yang kamu suka.
+              Temukan Paskibra, Panahan, Rohis, Pencak Silat, Futsal, atau PMR
+              yang sesuai dengan minatmu.
+            </p>
+            <a class="button button-yellow" href="rekomendasi.html"
+              >Mulai kuis minat <span aria-hidden="true">↗</span></a
+            >
+            <span class="quiz-time"
+              ><span>✦</span> 5 pertanyaan · sekitar 1 menit</span
+            >
+          </div>
+          <div class="quiz-promo-art" aria-hidden="true">
+            <div class="quiz-orbit orbit-a"></div>
+            <div class="quiz-orbit orbit-b"></div>
+            <div class="quiz-sticker sticker-art">✦<small>Disiplin</small></div>
+            <div class="quiz-sticker sticker-sport">◎<small>Fokus</small></div>
+            <div class="quiz-sticker sticker-code">♡<small>Peduli</small></div>
+            <div class="quiz-sticker sticker-team">⚽<small>Tim</small></div>
+            <div class="quiz-center">
+              <span>✦</span><strong>MINATMU</strong><small>Jadi petunjuk</small>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="explore section" id="jelajahi">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <div class="eyebrow eyebrow-light">
+                <span class="eyebrow-dot"></span> PILIH PETUALANGANMU
+              </div>
+              <h2>Jelajahi <span>ekstrakurikuler.</span></h2>
+              <p>
+                Kenali kegiatannya, cari tahu jadwalnya, lalu pilih yang paling
+                cocok denganmu.
+              </p>
+            </div>
+            <div class="result-count">
+              <strong id="resultCount">6</strong><span>ekskul tersedia</span>
+            </div>
+          </div>
+          <div class="explore-tools">
+            <label class="search-box" for="searchInput"
+              ><svg viewBox="0 0 24 24" aria-hidden="true">
+                <circle cx="10.8" cy="10.8" r="6.8" />
+                <path d="m16 16 4.5 4.5" /></svg
+              ><input
+                id="searchInput"
+                type="search"
+                placeholder="Cari nama atau manfaat ekskul..."
+                autocomplete="off"
+              /><kbd>⌕</kbd></label
+            >
+            <div class="filter-list" role="group" aria-label="Filter kategori">
+              <button class="filter-chip selected" data-filter="Semua">
+                Semua
+              </button>
+              <button class="filter-chip" data-filter="Kepemimpinan">
+                Kepemimpinan
+              </button>
+              <button class="filter-chip" data-filter="Olahraga">
+                Olahraga
+              </button>
+              <button class="filter-chip" data-filter="Keagamaan">
+                Keagamaan
+              </button>
+              <button class="filter-chip" data-filter="Kemanusiaan">
+                Kemanusiaan
+              </button>
+            </div>
+          </div>
+          <div class="club-grid" id="clubGrid" aria-live="polite"></div>
+          <div class="empty-state" id="emptyState" hidden>
+            <span>⌕</span>
+            <h3>Belum ada ekskul yang cocok</h3>
+            <p>Coba kata kunci atau kategori lain, ya.</p>
+            <button class="button button-outline" id="resetFilters">
+              Reset pencarian
+            </button>
+          </div>
+          <div class="catalog-note">
+            <span class="note-star">✳</span>
+            <p>
+              <strong>Belum tahu mau pilih yang mana?</strong> Buka detail
+              setiap ekskul untuk mengenal kegiatan, jadwal, dan manfaatnya.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <a class="brand footer-brand" href="#beranda"
+          ><span class="brand-mark school-logo"
+            ><img
+              src="https://www.e-ujian.com/SMKSMahaputraCerdasUtama/logo"
+              alt="Logo SMKS Mahaputra Cerdas Utama"
+              onerror="
+                this.hidden = true;
+                this.nextElementSibling.hidden = false;
+              "
+            /><span class="logo-fallback-text" hidden>MCU</span></span
+          ><span class="brand-name"
+            >Ekskul<span class="brand-accent">Ku</span></span
+          ></a
+        >
+        <p>Informasi ekstrakurikuler SMKS Mahaputra Cerdas Utama.</p>
+        <span class="footer-copy">Prototype tugas Design Thinking · 2026</span>
+      </div>
+    </footer>
+
+    <dialog
+      class="detail-dialog"
+      id="detailDialog"
+      aria-labelledby="dialogTitle"
+    >
+      <button class="dialog-close" id="dialogClose" aria-label="Tutup detail">
+        ×
+      </button>
+      <div id="dialogContent"></div>
+    </dialog>
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <script src="script.js"></script>
+  </body>
+</html>

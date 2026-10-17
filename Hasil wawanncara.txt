@@ -1,0 +1,69 @@
+**Daftar Pertanyaan**
+
+1. Informasi apa yang mau diketahui dari eskul?
+2. Apakah merasa kesulitan mendapatkan informasi eskul? Alasannya?
+3. Fitur yang ingin ditampilkan?
+4. Informasi yang penting ditampilkan?
+5. Bagaimana tampilan website yang menarik & mudah dipahami?
+
+---
+
+**Jawaban Responden**
+
+**1. Khansa**
+
+* **Kelas:** 11 DKV
+* **Jawaban:**
+1. Jadwal eskul agar tidak bentrok, dan biaya
+2. X, karena langsung menanyakan pada pelatih
+3. Tentang jadwal, deskripsi, perestasi
+4. Jadwal, perestasi
+5. Simple, mudah di baca dan di sebelah deskripsi ada gambar kegiatannya
+
+
+
+**2. irFan**
+
+* **Kelas:** 11 PPLg
+* **Jawaban:**
+1. Kegiatannya, & manfaat
+2. V, karena eskul nya tertutup
+3. Daftar eskul
+4. Nama pembinanya
+5. Tampilan, deskripsi jelas, menarik, Jangan sampai ada bug
+
+
+
+**3. adli**
+
+* **Kelas:** 11 PPLg
+* **Jawaban:**
+1. Jadwal
+2. Eskul tertutup
+3. Anggota eskul, job, simple
+4. Job Deskripsi eskul
+5. Simple
+
+
+
+**4. Qinthara**
+
+* **Kelas:** X DKV 1
+* **Jawaban:**
+1. Kegiatannya dan keseruanya
+2. X, tidak ada karena sudah dijelaskan saat MPLS
+3. Nama' eskul, Deskripsi, Jadwal
+4. Lokasi, dan jadwal
+5. Simple, Flaksible
+
+
+
+**5. Firli**
+
+* **Kelas:** X DKV 1
+* **Jawaban:**
+1. Materi, dan manfaat
+2. " *(sama dengan jawaban di atas)*
+3. Lokasi dan jadwal
+4. " *(sama dengan jawaban di atas)*
+5. Simple dan dapat dipahami, warnanya cerah dan menarik di samping deskripsi eskul adain poto pembina.
