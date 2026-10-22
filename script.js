@@ -45,7 +45,7 @@ const clubs = [
     category: "Keagamaan",
     description:
       "Rohis (Rohani Islam) membantu anggotanya memperkuat iman, mempererat ukhuwah, dan menumbuhkan akhlak yang baik. Kegiatannya berupa kajian, diskusi keagamaan, dan kegiatan sosial bersama teman. Lokasi kegiatannya belum diketahui secara pasti, jadi perlu dikonfirmasi ke pihak sekolah.",
-    day: "Jumat",
+    day: "Selasa - Rabu",
     time: "15.30–17.00",
     start: 930,
     end: 1020,
